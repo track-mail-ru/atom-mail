@@ -1,2 +1,2 @@
-# Atom Mail 2019 a Opalev
+# Atom Mail 2019
 
