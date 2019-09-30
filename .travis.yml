@@ -8,9 +8,6 @@ cache:
 before_install:
   - cd web-components
 
-before_deploy:
-  - cd web-components
-
 script:
   - npm run build
 
