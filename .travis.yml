@@ -11,7 +11,7 @@ script:
 deploy:
   provider: pages
   github_token: $repo_token
-  local_dir: build
+  local_dir: web-components/build
   on:
     branch:
       - master
