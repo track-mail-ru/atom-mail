@@ -6,7 +6,7 @@ cache:
   - node_modules
 
 before_install:
-  - cd web-components
+  - cd ${TRAVIS_HOME}/web-components
 
 script:
   - npm run build
