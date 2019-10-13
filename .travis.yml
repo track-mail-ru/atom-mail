@@ -17,4 +17,5 @@ deploy:
     branch:
       - master
       - devel
+      - hometask_test
       - /^h.*$/
