@@ -1,5 +1,6 @@
 {
   "private": true,
+  "homepage": "https://track-mail-ru.github.io/atom-mail/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server --mode=development --hot",
