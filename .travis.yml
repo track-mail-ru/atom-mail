@@ -14,8 +14,7 @@ deploy:
   github_token: $repo_token
   local_dir: web-components/build
   on:
-    branches:
-      only:
-        - master
-        - devel
-        - /^h.*$/
+    branch:
+      - master
+      - devel
+      - /^h.*$/
