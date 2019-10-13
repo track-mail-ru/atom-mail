@@ -13,4 +13,9 @@ deploy:
   skip_cleanup: true
   github_token: $repo_token
   local_dir: web-components/build
-  all_branches: true
+  on:
+    branches:
+      only:
+        - master
+        - devel
+        - /^h.*$/
